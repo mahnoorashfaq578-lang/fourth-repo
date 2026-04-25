@@ -5,6 +5,7 @@ body{
     background-position: center;
     height: 100vh;
     display: flex;
+    background-attachment: fixed;
 }
 .container{
     background-color: rgba(1, 24, 24, 0.4);
@@ -15,7 +16,7 @@ body{
     box-shadow: 5px 5px 3px grey;
     border: 2px solid black;
     border-radius: 20px 20px;
-    
+    overflow-y: scroll;
    
 }
 .head{
@@ -23,13 +24,13 @@ body{
     text-decoration: underline;
     text-transform: capitalize;
     color:white ;
-    font-family: "Playwrite IE", cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p{
-    line-height: 22px;
+    line-height: 1.6;
     word-spacing: normal;
     color: white;
     font-size: 18px;
     word-spacing: 2px;
-    font-family: "Playwrite IE", cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
